@@ -1,0 +1,23 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.portfolio-section{
+	height: 400px;
+	width: 100%;
+	border: 2px solid black;
+	text-align: center;
+	background-color: white;
+}
+.navigation-bar{
+	position: fixed;
+	width: 100%;
+	background-color: transparent;
+	backdrop-filter: blur(10px);
+}
+.portfolio-section h1{
+	margin-top: 50px;
+}
+html{
+	scroll-behavior: smooth;
+}
