@@ -27,7 +27,7 @@ html{
 }
 .brand{
 	font-size: 30px;
-	font-family: Arial Blake;
+	font-family: Algerian;
 	font-variant: small-caps;
 	color: orangered;
 }
@@ -83,4 +83,55 @@ html{
   100% {
     opacity: 1;
   }
+}
+
+#home{
+	height: 400px;
+	background-image: url("https://camo.githubusercontent.com/19db51af5f90f1b152bc0b9078f5fe97053955be5074f03f17019c70345bdcdb/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966");
+	background-position: 90% 20%;
+	background-size: 45%;
+	background-repeat: no-repeat;
+	border: none;
+}
+#home-info{
+	position: absolute;
+	top: 20px;
+	width: 500px;
+	height: 250px;
+	font-size: 25px;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.info{
+	font-weight: bolder;
+	color:black;
+}
+.designation{
+	color: royalblue;
+	font-size: 25px;
+	font-weight: bolder;
+}
+.myname{
+	font-size: 35px;
+}
+.rsmbtm{
+	height: 40px;
+	width: 100px;
+	border: none;
+	margin-top: 20px;
+	border-right: 10px;
+	font-size: 15px;
+	font-weight: bolder;
+	background-color: royalblue;
+	color: white;
+	transition-duration: 1s;
+
+}
+.rsmbtn:hover
+{
+	background-color: white;
+	color: royalblue;
+	border: 3px solid royalblue;
+
+	transform: scale(1,1);
 }
